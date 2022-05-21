@@ -10,13 +10,13 @@ export const MenuList = [
     name: "Pepperoni Pizza",
     image: Pepperoni,
     price: 15.99,
-    ingredient: " Jambon , Oeuf , Creme fraiche ",
+    ingredient: " Jambon , Oeuf , Chorizo, Bacon ",
   },
   {
     name: "Margherita Pizza",
     image: Margherita,
     price: 11.99,
-    ingredient: " Jambon , Oeuf , Creme fraiche ",
+    ingredient: " Jambon , Oeuf , Tomate, Basilic ",
   },
   {
     name: "PedroTech Special Pizza",
@@ -34,12 +34,12 @@ export const MenuList = [
     name: "Pineapple Pizza",
     image: Pineapple,
     price: 4.99,
-    ingredient: " Jambon , Oeuf , Creme fraiche ",
+    ingredient: " Jambon , Oeuf , Ananas,, Crème fraiche ",
   },
   {
     name: "Very Expensive Pizza",
     image: Expensive,
     price: 40.99,
-    ingredient: " Jambon , Oeuf , Creme fraiche ",
+    ingredient: " Jambon , Oeuf , Jambon de Bayonne",
   },
 ];
