@@ -10,11 +10,20 @@ function Contact(props) {
       ></div>
       <div className="rightSide">
         <h1> Contact Us</h1>
-        <form id="contact-item" method="POST">
+        <form
+          id="contact-item"
+          method="POST"
+          data-netlify="true"
+          onSubmit="submit"
+        >
           <label htmlFor="name"> Full Name</label>
           <input name="name" placeholder="Enter full name ..." type="text" />
+          <input type="hidden" name="form-name" value="name_of_my_form" />
+
           <label htmlFor="email"> Email</label>
           <input name="email" placeholder="Enter mail..." type="email" />
+          <input type="hidden" name="form-name" value="name_of_my_form" />
+
           <label htmlFor="message"> Message</label>
           <textarea
             rows="6"
