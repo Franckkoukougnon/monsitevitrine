@@ -4,6 +4,11 @@ import PedroTechSpecial from "../assets/pedrotechspecial.jpg";
 import Vegan from "../assets/pizza-vegan.jpg";
 import Pineapple from "../assets/pineapple.jpg";
 import Expensive from "../assets/expensive.jpg";
+import Allocopoisson from "../assets/Alloco-poisson.jpg";
+import Kedjenou from "../assets/kedjenou.jpeg";
+import Porco from "../assets/porc-grillé-ivorianfood.webp";
+import Attieke from "../assets/attieke.webp";
+import Poisson from "../assets/poissn-braise.jpg";
 
 export const MenuList = [
   {
@@ -21,7 +26,7 @@ export const MenuList = [
   {
     name: "PedroTech Special Pizza",
     image: PedroTechSpecial,
-    price: 256.53,
+    price: 25,
     ingredient: " Jambon , Oeuf , Creme fraiche ",
   },
   {
@@ -41,5 +46,30 @@ export const MenuList = [
     image: Expensive,
     price: 40.99,
     ingredient: " Jambon , Oeuf , Jambon de Bayonne",
+  },
+  {
+    name: " Alloco Piment Poisson",
+    image: Allocopoisson,
+    price: 15.0 + " euros",
+  },
+  {
+    name: " Kedjenou de Poulet Fermier",
+    image: Kedjenou,
+    price: 20.0 + " euros",
+  },
+  {
+    name: " Porc au four",
+    image: Porco,
+    price: 20.0 + " euros",
+  },
+  {
+    name: " PAttiéké ",
+    image: Attieke,
+    price: 20.0 + " euros",
+  },
+  {
+    name: "Poisson Braisé",
+    image: Poisson,
+    price: 20 + " euros",
   },
 ];

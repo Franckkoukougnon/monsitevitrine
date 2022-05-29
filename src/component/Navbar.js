@@ -17,12 +17,14 @@ function Navbar(props) {
         </Link>
         <div className="hiddenLinks">
           <Link to="/menu"> Menu</Link>
+
           <Link to="/about"> About</Link>
           <Link to="/contact"> Contact</Link>
         </div>
       </div>
       <div className="rightSide">
         <Link to="/menu"> Menu</Link>
+
         <Link to="/about"> About</Link>
         <Link to="/contact"> Contact</Link>
         <button onClick={toggleNavbar}>

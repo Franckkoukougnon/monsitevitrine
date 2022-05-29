@@ -10,7 +10,7 @@ function Footer(props) {
         <FacebookIcon />
         <InstagramIcon />
       </div>
-      <p> &copy; 2021 Francl Koukougnon</p>
+      <p> &copy; 2021 Franck Koukougnon</p>
     </div>
   );
 }
